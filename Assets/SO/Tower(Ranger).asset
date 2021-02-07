@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 300
   sprite: {fileID: 21300000, guid: ee78cffc7eeeb482ca81f20814a338c5, type: 3}
   color: {r: 0.6117647, g: 0.16500533, b: 0.8578488, a: 1}
-  attackCooldown: 0
+  attackCooldown: 0.2
   attackRange: 500
   rotationOffset: 0
   projectile: {fileID: 11400000, guid: b83a59c31a75e5343829691ee950a592, type: 2}

@@ -24,18 +24,18 @@ public class TowerManager : MonoBehaviour
         currentHealth = self.health;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (currentTarget != null)
-        {
-            AttackTarget();
-        }
-        else
-        {
-            FindNextTarget();
-        }
-    }
+    // // Update is called once per frame
+    // void Update()
+    // {
+    //     if (currentTarget != null)
+    //     {
+    //         AttackTarget();
+    //     }
+    //     else
+    //     {
+    //         FindNextTarget();
+    //     }
+    // }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
